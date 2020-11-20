@@ -53,7 +53,10 @@ const callResult = <number>browser.call(() =>
 callResult.toFixed(2)
 
 // printPage
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1f3da652f287d297bd6b13f49194d58599dacd0
 browser.savePDF('./packages/bar.pdf', {
     orientation: 'landscape',
     background: true,

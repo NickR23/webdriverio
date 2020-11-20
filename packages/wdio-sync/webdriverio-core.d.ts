@@ -1248,7 +1248,11 @@ declare namespace WebdriverIO {
         reloadSession(): void;
 
         /**
+<<<<<<< HEAD
          * Save a screenshot of the current browsing context to a PDF file on your OS.
+=======
+         * Prints the page of the current browsing context to a PDF file on your OS.
+>>>>>>> d1f3da652f287d297bd6b13f49194d58599dacd0
          */
         savePDF(
             filepath: string,
